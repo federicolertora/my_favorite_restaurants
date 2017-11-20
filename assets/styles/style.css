@@ -1,0 +1,57 @@
+body{
+    
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'sans-serif';
+    background: url(https://images.unsplash.com/photo-1478369402113-1fd53f17e8b4?auto=format&fit=crop&w=662&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-backgroud-size: cover;
+}
+
+#title{
+    color: blue;
+}
+
+.restaurant-group { 
+    background-color: rgba(204, 204, 204, 0.6);
+    padding: 10px 10px 20px 10px;
+    margin: 10px;
+}
+
+.restaurant-photo {
+    width: 50%;
+    float: right;
+}
+
+.restaurant-group h3 {
+    color: #fff;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.restaurant-text {
+    margin-left: 50%;
+}
+
+a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: #555;
+    border:2px solid #333;
+}
+
+p {
+    font-size: 1.2em;
+    font-family: 'helvetica', 'arial', 'sans-serif';
+    font-weight: 100; /*100-900*/
+    color: #777;
+    line-height: 125%;
+    letter-spacing: 2px;
+    text-align: left;
+    clear: both;
+}
